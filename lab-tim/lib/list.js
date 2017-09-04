@@ -1,6 +1,5 @@
 'use strict';
 
-
 const List = module.exports = function() {
   for (let key in arguments) {
     this[key] = arguments[key];

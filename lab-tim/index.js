@@ -2,5 +2,6 @@
 
 const List = require('./lib/list');
 
-let list = new List('hello', 'world', true, 44);
+let list = new List('Joe', 'Bob', 'Frank', 'George');
+
 console.log(list);
